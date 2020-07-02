@@ -1,5 +1,7 @@
 {
   "name": "math-proj",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

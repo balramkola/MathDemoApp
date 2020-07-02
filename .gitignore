@@ -29,3 +29,13 @@ npm-debug.log*
 /platforms
 /plugins
 /www
+
+/e2e
+/resources
+*.json
+/src/assests
+/src/environments
+/src/theme
+/src/*.ts
+/src/index.html
+/src/global.scss
