@@ -9,16 +9,22 @@
 <ion-content [fullscreen]="true">
 
   <ion-item>
-  <ion-input [(ngModel)]="value1" placeholder="first value"></ion-input>
-</ion-item>
-<ion-item>
-  <ion-input [(ngModel)]="value2" placeholder="second value"></ion-input>
-</ion-item>
-<br>
-<ion-item>
-  <ion-button (click)="add()">Add</ion-button>
-  <ion-button (click)="sub()">Sub</ion-button>
-  <!-- <ion-button (click)="test()">Test</ion-button> -->
-</ion-item>
+    <ion-input [(ngModel)]="value1" placeholder="first value"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-input [(ngModel)]="value2" placeholder="second value"></ion-input>
+  </ion-item>
+  <br>
+  <ion-item>
+    <ion-button (click)="add()">Add</ion-button>
+    <ion-button (click)="sub()">Sub</ion-button>
+  </ion-item>
+  <br>
+  <ion-item>
+    <ion-button (click)="hookOnTimerEvents()">Get_Timer_Events</ion-button>
+  </ion-item>
+  <br>
+  <ion-item>
+    <ion-label color="primary">{{timerTextView}}</ion-label>
+  </ion-item>
 </ion-content>
-
